@@ -1,0 +1,23 @@
+.datePicker {
+    
+    border: 2px solid #4B0082;
+    padding: 17px;
+    border-radius: 4px;
+    background-color:#3a0069 ;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+  
+  }
+  
+  .dateContainer {
+  
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 23px;
+    margin-top: 18px;
+    
+  }

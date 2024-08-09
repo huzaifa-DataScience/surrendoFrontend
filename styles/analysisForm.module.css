@@ -1,0 +1,92 @@
+.analysisForm {
+    display: flex;
+    
+    height: 100%;
+    width: 100%;
+  }
+  
+
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    
+    background: #110125;
+    color: white;
+  }
+  
+  .symptomList {
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+  }
+  
+  .symptomItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5%;
+  }
+  
+  .symptomName {
+
+    font-size: 20px;
+  }
+
+.headers{
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  align-items: center;
+  /* padding-left: 5%; */
+  margin: 10px 5%;
+  border-bottom: 5px solid #6531a7;
+}
+
+  .checkboxes {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .symptomControls {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  
+  .symptomControls input[type="range"] {
+    margin: 0 10px;
+    
+  }
+  
+  .textField{
+
+    width: 12rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: 5px solid  #6531a7;
+    background-color: #230b42;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  .noteField{
+    display: flex;
+    max-width: 50rem;
+    max-height: 300px;
+    border-radius: 1rem;
+    border: 5px solid  #6531a7;
+    background-color: #230b42;
+    color: white;
+    font-size: 20px;
+    text-align: start;
+    margin-top: 2rem;
+    margin-left: 5rem;
+   
+
+  }
+
+  

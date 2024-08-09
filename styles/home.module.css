@@ -1,0 +1,38 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #110125; 
+  }
+  
+  .button {
+    margin: 10px;
+    height: 20rem;
+    width: 20rem;
+    padding: 20px 40px; 
+    font-size: 40px; 
+    cursor: pointer;
+    color: white;
+    background-color: #370b6e; 
+    
+    border-radius: 2rem;
+    transition: background-color 0.3s, transform 0.2s; 
+    border-bottom: 20px solid white;
+    border-right: 10px solid white;
+    transition: background-color 0.3s, color 0.3s, transform 0.1s;
+    box-shadow: 2px 2px 8px 2px rgba(173, 216, 230, 0.5); 
+  }
+  
+  .button:hover {
+    background-color: #7a0fca; 
+
+    border: none;
+  }
+  
+  .button:active {
+    transform: scale(0.95); 
+  }
+  

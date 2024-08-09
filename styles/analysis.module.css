@@ -1,0 +1,114 @@
+.main {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;   
+    height: 100vh;
+    box-shadow: 2px 0 0px rgba(0, 0, 0, 0.2);
+}
+
+.sideNav {
+    background-color: #190037;
+    width: 22%;
+    padding-top: 20px;
+    box-shadow: 2px 0 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: hidden; */
+    overflow: hidden;
+    color: white;
+    cursor: pointer;
+}
+
+.sideNav ul {
+    margin: 0;
+    padding: 0;
+   
+    list-style: none;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+}
+
+.sideNav li {
+   
+    
+    font-size: 28px;
+    border-radius: 5px;
+    width: 100%; 
+    text-align: start; 
+    padding-left: 4rem;
+    border-bottom: solid #330853;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    height: 120px;
+    transition: background-color 0.3s, color 0.3s, transform 0.1s;
+}
+
+
+.sideNav li:hover  {
+    background-color: #3b0c66; 
+    color: #ddd; 
+    transform: scale(1.05); 
+ 
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    flex-grow: 1;
+    background-color: #110125;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #4B0082; 
+    color: white;
+    width: 200px; 
+    height: 50px; 
+    margin: 20px auto; 
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.submitButton:hover {
+    background-color: #3a0069; 
+}
+
+.submitButton:focus {
+    outline: none; 
+}
+.datePicker {
+    
+    border: 2px solid #4B0082;
+    padding: 17px;
+    border-radius: 4px;
+    background-color:#3a0069 ;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.dateContainer {
+
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 23px;
+    margin-top: 18px;
+    
+}
